@@ -1,0 +1,108 @@
+.modelMask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectCategory {
+    background: #323232;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    color: #cdcdcd;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.modelBody {
+    width: 50%;
+    max-width: 500px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modelHeader {
+    padding: 30px;
+    border-bottom: 2px solid #262626;
+}
+
+.roomTypes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.typeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.typeBox.active {
+    background: #262626;
+}
+
+.heading {
+    margin-bottom: 5px;
+}
+
+.subHeading {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.modelFooter {
+    padding: 30px;
+    text-align: center;
+}
+
+.modelFooter h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footerButton {
+    background: #20bd5f;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    padding: 7px 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.footerButton:hover {
+    background: #13763b;
+}
+
+.footerButton span {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.closeButton {
+    position: absolute;
+    top: 8px;
+    right: 3px;
+    background: none;
+}
+
+.fileUpload {
+    margin-top: 20px;
+}

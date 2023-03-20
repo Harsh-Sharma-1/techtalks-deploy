@@ -1,0 +1,19 @@
+.card {
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #262626;
+}
+
+.card p {
+    font-size: 15px;
+    color: #dfdfdf;
+}

@@ -1,0 +1,28 @@
+.roomsList {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.tabs {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #838383;
+}
+
+.tabs button {
+    margin-right: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    font-family: 'nunito';
+    transition: all 0.2s ease;
+}
+
+.analytics {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

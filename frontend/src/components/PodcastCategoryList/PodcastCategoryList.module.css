@@ -1,0 +1,31 @@
+.listContainer {
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.listContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.category {
+    min-width: fit-content;
+    display: block;
+    color: #606060;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.category:hover {
+    color: #bdbdbd;
+}
+
+.category.active {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoutButton {
+    background: none;
+    cursor: pointer;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0077ff;
+    margin: 0 20px;
+    margin-right: 10px;
+}
+
+.navLeft {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navLeft a {
+    text-decoration: none;
+}
+
+.navLeft span {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navLeft span:hover {
+    color: wheat;
+}
